@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #fff1c9;
+  }
+  
+  .form-container {
+    text-align: center;
+  }
+  
+  .form-box {
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .input-field {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid gray;
+    border-radius: 4px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: #00aeff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .card {
+    background-color: #ffcd8f;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .color-display {
+    padding: 10px;
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+  }
